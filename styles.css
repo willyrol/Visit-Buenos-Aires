@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1256px
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background: url(https://viajes.nationalgeographic.com.es/medio/2021/11/04/avenida-9-de-julio-buenos-aires_3d7d9ad1_1254x836.jpg); 
+    height: 400px;
+    width: 100%;
+    max-width: 1256px;
+    position: absolute;
+}
+
+#hero h1 {
+    color: #fff;
+    text-shadow: 0px 0px 5px black;
+    font-size: 45px;
+}
+
+#hero h2 {
+    color: #1D3557;
+}
+
+#activities {
+    height: 360px;
+    width: 100%;
+    left: 0px;
+    margin-top: 400px;
+    background: #343944;
+    color: #f0f0f0;
+    
+}
+
+#activities h3 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+
+#box-act {
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    
+    
+}
+
+#box-act img {
+    height: 100px;
+    width: 160px;
+    border: 3px solid #f0f0f0;
+    border-radius: 10px;
+}
+
+#guide {
+    
+    background: #DAD1D1;
+    
+    
+}
+
+#card {
+    width: 400px;
+    height: 294px;
+    left: 160px;
+    top: 50px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:"flex";
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 80px;
+}
+
+#card-text h3{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+padding-top: 20px;
+color: #1D3557;
+}
+
+#card-text p {
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: #1D3557;
+}
+
+#card-text h4{
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: #1D3557;
+}
